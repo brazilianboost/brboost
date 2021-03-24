@@ -1,0 +1,25 @@
+{
+  "name": "accgen-web",
+  "version": "1.0.0",
+  "repository": "https://gitlab.com/nullworks/accgen/accgen-web",
+  "author": "nullworks",
+  "license": "AGPL-3.0-or-later",
+  "private": true,
+  "scripts": {
+    "build": "rm -r public || true && webpack"
+  },
+  "dependencies": {
+    "autolinker": "^3.14.1",
+    "await-to-js": "^2.1.1",
+    "bootstrap": "^4.5.0",
+    "bootstrap-table": "^1.17.1",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.1.1",
+    "escape-html": "^1.0.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.15.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
